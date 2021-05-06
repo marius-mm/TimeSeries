@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+ipykernel = "*"
+matplotlib = "*"
+scikit-learn = "*"
+statsmodels = "*"
+seaborn = "*"
+tensorflow = "*"
+ipython = "*"
+h5py = "*"
+requests = "*"
+lightgbm = "*"
+pydot = "*"
+graphviz = "*"
+keras = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
